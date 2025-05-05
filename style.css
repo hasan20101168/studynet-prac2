@@ -1,0 +1,49 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .overlay {
+            background: 
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+                url('australia_visa2.jpg') center center/cover no-repeat;
+            color: #fff;
+            padding: 60px 0;
+            min-height: 120vh; 
+            display: flex;
+            align-items: center;
+        }
+        .main-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+        .highlight {
+            color: #ff4081;
+        }
+        .info-box {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .info-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+        .info-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #2575fc;
+        }
+        .badge-custom {
+            background: linear-gradient(45deg, #ff4081, #7c4dff);
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 5px;
+            display: inline-block;
+        }
